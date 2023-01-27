@@ -1,4 +1,5 @@
-# LoRaLay: A Multilingual and Multimodal Dataset for *Lo*ng *Ra*nge and *Lay*out-Aware Summarization
+# LoRaLay 
+[LoRaLay: A Multilingual and Multimodal Dataset for *Lo*ng *Ra*nge and *Lay*out-Aware Summarization](https://arxiv.org/abs/2301.11312), Laura Nguyen, Thomas Scialom, Benjamin Piwowarski, Jacopo Staiano, EACL 2023
 
 ## Environment Setup
 ~~~shell
@@ -60,3 +61,14 @@ python experiments/run_summarization.py \
     --num_beams <5|8> \
     --length_penalty 0.8 
 ~~~
+
+## Citation
+
+``` latex
+@article{nguyen2023loralay,
+    title={LoRaLay: A Multilingual and Multimodal Dataset for Long Range and Layout-Aware Summarization}, 
+    author={Laura Nguyen and Thomas Scialom and Benjamin Piwowarski and Jacopo Staiano},
+    journal={arXiv preprint arXiv:2301.11312}
+    year={2023},
+}
+```
